@@ -1,0 +1,246 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* navbar section */
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/028e62d2-2a59-4fc3-adaa-a0756a0512b9/IN-en-20220905-popsignuptwoweeks-perspective_alpha_website_medium.jpg " );
+    height: 750px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);  
+}
+nav .logo{
+    margin-top: 10x;
+    margin-left: 30px;
+    padding: 20px;
+}
+.nav-items .select-btn{
+    padding: 6px;
+    border: 1px solid white;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.nav-items .btn{
+    background-color: red;
+    padding: 6px;
+    margin-right:40px ;
+    font-weight: 500;
+    font-size: 17px;
+    color: whitesmoke;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+/* container section */
+.container{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.3);   
+}
+.container .h1{
+      font-size: 58px;
+      font-weight: 900;
+      margin-bottom: -69px;
+      line-height: 1;
+}
+.container .h2{
+      font-size: 27px;
+      font-weight: 500;
+      padding: 1% 5%;
+      margin-bottom: -1px;
+}
+.container .p{
+    font-size: 22px;
+}
+
+.btn-section{
+display: flex;
+justify-content: center;
+}
+input{
+    width: 500px;
+    height: 70px;
+    font-size: 17px;
+}
+.container button{
+    width: 240px;
+    height: 78px;
+    background-color: #F40E1E;
+    color: whitesmoke;
+    border: none;
+    font-size: 26px;
+    padding: 20px 17px;
+    cursor: pointer;
+}
+
+/* section 2 */
+.section-2{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    height: 470px;
+    border-top: 8px solid rgb(31, 29, 29);
+    border-bottom: 8px solid rgb(31, 29, 29);
+}
+.section-2 .content h1{
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+.section-2 .content h2{
+   font-weight: 500;
+   font-size: 27px;
+}
+
+/* section 3 */
+.section-3{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    height: 470px;
+    border-bottom: 8px solid rgb(31, 29, 29);
+}
+.section-3 .content{
+    margin-right: 130px;
+}
+.section-3 .image{
+    margin-left: 130px;
+}
+.section-3 .content h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.section-3 .content h2{
+   font-weight: 500;
+   font-size: 29px;
+}
+.section-3 button{
+    padding: 20px;
+    width: 280px;
+    color: whitesmoke;
+    border: 2px solid rgb(54, 52, 52);
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 63px;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+}
+.section-3 span{
+    color: rgb(0, 0, 255);
+}
+
+/* section 4 */
+.section-4{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    height: 530px;
+    border-top: 8px solid rgb(31, 29, 29);
+    border-bottom: 8px solid rgb(31, 29, 29);
+}
+.section-4 .content{
+    margin-left: 130px;
+}
+.section-4 .image{
+    margin-right: 130px;
+}
+.section-4 .content h1{
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+.section-4 .content h2{
+   font-weight: 500;
+   font-size: 27px;
+}
+
+/* section 5 */
+.section-5{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    height: 530px;
+    border-top: 8px solid rgb(31, 29, 29);
+    border-bottom: 8px solid rgb(31, 29, 29);
+}
+.section-5 .content{
+    margin-right: 130px;
+}
+.section-5 .image{
+    margin-left: 130px;
+}
+.section-5 .content h1{
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+.section-5 .content h2{
+   font-weight: 500;
+   font-size: 27px;
+}
+
+/* Footer section */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    padding: 100px;
+}
+.footer ul li{
+    list-style-type: none;
+    color: rgb(121, 120, 120);
+    padding: 10px;
+
+}
+.footer a{
+    text-decoration: none;
+}
+.footer .select-btn{
+    margin-left: 30px;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    color: rgb(121, 120, 120);
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid rgb(54, 52, 52);
+    width: 120px;
+}
+.footer .para{
+    color: rgb(121, 120, 120);
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
